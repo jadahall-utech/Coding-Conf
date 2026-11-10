@@ -4,7 +4,7 @@ const fullname = localStorage.getItem('fullname');
 // Return to registration if no attendee name was saved
 if (fullname === null) 
     {
-        window.location.href = 'index.html';
+        window.location.href = '../index.html';
     }
 else
     {
